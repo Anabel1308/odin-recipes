@@ -1,0 +1,54 @@
+body {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    background-image: url(images/restaurant_icons.png);
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 145, 0);
+    background-color: rgb(170, 232, 240);
+    margin: 50px 682px;
+    padding: 10px;
+}
+
+.image {
+    display: block;
+    margin: 50px auto;
+}
+
+div.button-container {
+    text-align: center;
+}
+
+ul.button {
+    display: inline-block;
+    text-align: left;
+    list-style-image: url(images/hat.png);
+    list-style-position: inside;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color:rgb(6, 128, 177)
+}
+
+a:hover {
+    color:rgb(0, 80, 112)
+}
+
+.one,
+.two,
+.three {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-size: 25px;
+    background-color: rgb(170, 232, 240);
+    border-style: ridge;
+    border-width: thick;
+    border-color: rgb(255, 145, 0);
+    margin-left: -250px;
+}

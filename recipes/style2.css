@@ -1,0 +1,88 @@
+body {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    background-image: url(../images/restaurant_icons.png);
+    font-size: 18px;
+}
+
+p {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(170, 232, 240);
+    color: rgb(255, 145, 0);
+    margin: 25px 500px;
+    padding: 10px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: rgb(170, 232, 240);
+    color: black;
+    margin: 25px 55em 25px 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    background-color: rgb(170, 232, 240);
+    color: black;
+    margin: 25px 600px;
+    padding: 10px;
+}
+
+div.ingredients-container {
+    text-align: center;
+}
+
+ul.ingredients {
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+    list-style-type:disc;
+}
+
+ol {
+    margin-left: 30px;
+    margin-right: 500px;
+    line-height: 1.25;
+}
+
+.back#link {
+    text-align:right;
+}
+
+.button {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    background-color: rgb(170, 232, 240);
+    border-color: rgb(255, 145, 0);
+    border-style: ridge;
+    border-width: thick;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color:rgb(6, 128, 177)
+}
+
+a:hover {
+    color:rgb(0, 80, 112)
+}
