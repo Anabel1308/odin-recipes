@@ -1,15 +1,16 @@
 body {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     background-image: url(images/restaurant_icons.png);
+    margin: auto 0;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 70px;
     text-align: center;
     color: rgb(255, 145, 0);
     background-color: rgb(170, 232, 240);
-    margin: 50px 682px;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .image {
@@ -17,11 +18,11 @@ h1 {
     margin: 50px auto;
 }
 
-div.button-container {
+div.container {
     text-align: center;
 }
 
-ul.button {
+ul {
     display: inline-block;
     text-align: left;
     list-style-image: url(images/hat.png);
@@ -41,14 +42,15 @@ a:hover {
     color:rgb(0, 80, 112)
 }
 
-.one,
-.two,
-.three {
+li {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     background-color: rgb(170, 232, 240);
     border-style: ridge;
     border-width: thick;
     border-color: rgb(255, 145, 0);
-    margin-left: -250px;
+    line-height: 1.5;
+    margin: 10px auto 10px -50px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
